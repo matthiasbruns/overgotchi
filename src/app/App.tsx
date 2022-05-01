@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import styles from './App.module.css';
-import Welcome from './components/Welcome/Welcome';
+import Character from './components/Character/Character';
+import Title from './components/Title/Title';
 
 function App(): JSX.Element {
   return (
     <div className={styles.container}>
-      <img src={logo} className={styles.logo} alt="logo" />
-      <Welcome />
-      <p>Something great will happen here!</p>
+      <Character />
+      <Title />
       <button
         onClick={() =>
           overwolf.windows.getCurrentWindow((result) => {

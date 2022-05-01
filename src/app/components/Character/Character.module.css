@@ -1,0 +1,16 @@
+.character {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  min-width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+.character canvas {
+  width: 100vw;
+  min-width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+}
