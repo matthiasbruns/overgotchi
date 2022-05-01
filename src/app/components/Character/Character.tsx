@@ -1,9 +1,6 @@
 import { useEffect } from 'react';
-import {
-  EventType,
-  useRive,
-  useStateMachineInput,
-} from '@rive-app/react-canvas';
+import { useRive, useStateMachineInput } from 'rive-react';
+import { EventType } from '@rive-app/canvas';
 import styles from './Character.module.css';
 
 const Character = (): JSX.Element => {
